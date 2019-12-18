@@ -13,6 +13,35 @@ body {
 /*   padding: 1em; */
 }
 
+
+
+
+/*Responsive VIdeo*/
+.videoWrapper {
+	position: relative;
+	padding-top: 25px;
+	height: 0;
+  clear:both;
+  outline:1px solid red;
+}
+
+.videoWrapper.ratio-16-9{
+    padding-bottom: 56.25%; /* 16:9 */
+}
+
+.videoWrapper.ratio-4-3{
+    padding-bottom: 75%; /* 4:3 */
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
 /* This adds space between paragraphs and list items
    NOTE: most Navigations use list items so you will need to
    explicity set the margins on those so this rule doesn't
