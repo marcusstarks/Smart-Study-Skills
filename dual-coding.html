@@ -11,7 +11,9 @@
 <body class="skillspage">
 	<header class="site-header">
 		<h1>Smart Study Skills</h1>
-		<nav class="site-nav" role="navigation">
+		<div class="menu"> <a href="#" id="menu_button">Menu</a> </div>
+
+		<nav id="main_nav" role="navigation">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
@@ -75,28 +77,37 @@
 
 			<div class="downloads">
 				<h4>Downloads</h4>
-				<ol>
+				<ul>
 					<li>[pdf 1 page quick guide] <a href="//www.learningscientists.org/s/Dual-Coding-yp86.pdf">Learn to Study Using Dual Coding https</a>:</li>
-				</ol>
+				</ul>
 			</div>
 
 
 			<div class="podcasts">
 				<h4>Podcasts and web sites</h4>
-				<ol>
+				<ul>
 					<li>[website] <a href="http://www.learningscientists.org/dual-coding">The Learning Scientists</a> </li>
 					<li>[blog post] <a href="https://www.learningscientists.org/blog/2016/9/1-1">Learn to Study Using Dual Coding</a> </li>
 					<li>[blog post] <a href="https://www.learningscientists.org/blog/2018/11/11/weekly-digest-132">Dual Coding, Visual Note Taking, and Sketchnoting</a> </li>
 					<li>[podcast ] <a href="//www.learningscientists.org/learning-scientists-podcast/2018/2/7/episode-12-dual-coding">Dual Coding https</a> </li>
 					<li>[podcast ] <a href="https://www.learningscientists.org/learning-scientists-podcast/2018/2/21/episode-13-bite-size-research-on-dual-coding-vs-learning-styles">Bite-sized Research on Dual Coding vs Learning Styles</a> </li>
 					<li>podcast 20:52] <a href="https://www.learningscientists.org/learning-scientists-podcast/2018/3/21/episode-15-how-students-can-use-interleaving-elaboration-dual-coding-and-concrete-examples">How Students Can Use Interleaving, Elaboration, Dual Coding, and Concrete Examples</a> </li>
-				</ol>
+				</ul>
 			</div>
 		</div>
 	</main>
 	<footer class="site-footer">
 		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 		<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. </footer>
+
+		<!-- loading javascript -->
+
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+    </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
